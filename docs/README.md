@@ -14,6 +14,29 @@ The game will, by Sepember 26th, at a minimum, satisfy the following criteria:
 
 ## Wireframes
 
+iMessage App Dock
+
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.05.39.png?raw=true" height=300px>
+<br><br>
+
+App View
+
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.06.10.png?raw=true" height=300px>
+<br><br>
+
+App Extended View
+
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.01.11.png?raw=true" height=300px>
+<br><br>
+
+Composed Message object
+
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.01.29.png?raw=true" height=300px>
+<br><br>
+
+Received Message object instance
+
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.06.47.png?raw=true" height=300px>
 
 ## Structure
 
@@ -25,11 +48,11 @@ The game will run with familiar client MVC architecture.
 
 ## Implementation Timeline
 
-- Day 1: 
-- Day 2: 
-- Day 3: 
-- Day 4: 
-- Day 5: 
+- Day 1:
+- Day 2:
+- Day 3:
+- Day 4:
+- Day 5:
 
 ## Bonus Features
 
