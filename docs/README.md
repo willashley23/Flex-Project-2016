@@ -47,12 +47,12 @@ The game will run with familiar client MVC architecture.
 `PostgreSQL Database`
 
 ## Implementation Timeline
-
-- Day 1:
-- Day 2:
-- Day 3:
-- Day 4:
-- Day 5:
+- Day 0: Jim will set up developer's license and Testflight for Xcode build group testing. All will research and become familiar with Swift. Jeff will begin scraping for game images.   
+- Day 1: Determine database structure. Seeded and able to query database. Create initial Xcode project. Render UI images to project's views.
+- Day 2: Ability to begin the game with a player in the conversation on button press. Picture is sent as an MSMessage object into iMessage. Ability to pass the MSMessage object between players along with state in the query string.
+- Day 3: Implement game logic to track number of guesses by each player in the conversation on each picture. Tracks each player's score for the current game. Game win logic.
+- Day 4: Connect backend to UI. Serve's a random picture for each round. MSMessage object contains picture along with the ability to submit a guess.
+- Day 5: Clean up UI and bugs. Submission to App Store.
 
 ## Bonus Features
 
