@@ -1,6 +1,6 @@
 # Flex Project
 
-Project(i)M is a mobile multiplayer game built for iMessage using Swift. The game will render a card in iMessage consisting of four images that can be described by one word. Each player in the conversation will have a set number of guesses and will submit their guesses within iMessage.
+iPict is a mobile multiplayer game built for iMessage using Swift. The game will render a card in iMessage consisting of four images that can be described by one word. Each player in the conversation will have a set number of guesses and will submit their guesses within iMessage.
 
 ## MVP
 
@@ -39,12 +39,13 @@ Received Message object instance
 <img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.06.47.png?raw=true" height=300px>
 
 ## Structure & Technologies
+iPict will be built primarily in Swift on the iOS10 Messages app extension framework. Images and data shall be hosted using Firebase on the backend and served using AlamoFire. CocoaPods is utilized as a dependency manager.
 
-The game will run with familiar client MVC architecture and will be built primarily in Swift. 
+A traditional MVC architecture will be implemented to structure the application.
 
-`MessagesViewController`
-
-`PostgreSQL Database`
+iPict will include two models:
+`Board`: will contain the current instance with an associated picture url, answer string and length integer
+`Game`: will contain the current game session including players and points
 
 ## Implementation Timeline
 - Day 0: Jim will set up developer's license and Testflight for Xcode build group testing. All will research and become familiar with Swift. Jeff will begin scraping for game images.   
