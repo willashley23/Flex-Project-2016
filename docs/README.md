@@ -26,7 +26,7 @@ App View
 
 App Extended View
 
-<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.01.11.png?raw=true" height=300px>
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/app-extended-view.png?raw=true" height=300px>
 <br><br>
 
 Composed Message object
