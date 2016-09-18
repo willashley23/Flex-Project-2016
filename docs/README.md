@@ -38,9 +38,9 @@ Received Message object instance
 
 <img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.06.47.png?raw=true" height=300px>
 
-## Structure
+## Structure & Technologies
 
-The game will run with familiar client MVC architecture.
+The game will run with familiar client MVC architecture and will be built primarily in Swift. 
 
 `MessagesViewController`
 
