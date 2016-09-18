@@ -13,6 +13,7 @@
 		1F82B0011D8DFC4E00CE8DD1 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82B0001D8DFC4E00CE8DD1 /* MessagesViewController.swift */; };
 		1F82B0041D8DFC4E00CE8DD1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F82B0021D8DFC4E00CE8DD1 /* MainInterface.storyboard */; };
 		1F82B0061D8DFC4E00CE8DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F82B0051D8DFC4E00CE8DD1 /* Assets.xcassets */; };
+		1F82B0311D8EFE1200CE8DD1 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82B0301D8EFE1200CE8DD1 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F82B0031D8DFC4E00CE8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1F82B0051D8DFC4E00CE8DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F82B0071D8DFC4E00CE8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F82B0301D8EFE1200CE8DD1 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +104,21 @@
 		1F82AFFF1D8DFC4E00CE8DD1 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				1F82B02F1D8EFDD300CE8DD1 /* Model */,
 				1F82B0001D8DFC4E00CE8DD1 /* MessagesViewController.swift */,
 				1F82B0021D8DFC4E00CE8DD1 /* MainInterface.storyboard */,
 				1F82B0051D8DFC4E00CE8DD1 /* Assets.xcassets */,
 				1F82B0071D8DFC4E00CE8DD1 /* Info.plist */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		1F82B02F1D8EFDD300CE8DD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F82B0301D8EFE1200CE8DD1 /* Board.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F82B0311D8EFE1200CE8DD1 /* Board.swift in Sources */,
 				1F82B0011D8DFC4E00CE8DD1 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				1F82B00C1D8DFC4E00CE8DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F82B00E1D8DFC4E00CE8DD1 /* Build configuration list for PBXNativeTarget "iPict" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				1F82B0101D8DFC4E00CE8DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
