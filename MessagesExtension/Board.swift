@@ -7,6 +7,8 @@
 //
 
 import Foundation
+//import UIKit?
+//import Alamofire?
 
 class Board {
     private var _photoUrl: String!

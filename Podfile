@@ -14,5 +14,5 @@ target 'MessagesExtension' do
   use_frameworks!
 
   # Pods for MessagesExtension
-
+  pod 'Alamofire', '~> 4.0'
 end
