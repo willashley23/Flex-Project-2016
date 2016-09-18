@@ -14,9 +14,9 @@ The game will, by Sepember 26th, at a minimum, satisfy the following criteria:
 
 ## Wireframes
 
-iMessage App Dock
+iMessage App Icon
 
-<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Screen%20Shot%202016-09-16%20at%2011.05.39.png?raw=true" height=300px>
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Icon-App@3x.png?raw=true" height=100px>
 <br><br>
 
 App View
