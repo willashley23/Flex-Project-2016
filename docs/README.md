@@ -44,8 +44,8 @@ iPict will be built primarily in Swift on the iOS10 Messages app extension frame
 A traditional MVC architecture will be implemented to structure the application.
 
 iPict will include two models:
-`Board`: will contain the current instance with an associated picture url, answer string and length integer
-`Game`: will contain the current game session including players and points
+- `Board`: will contain the current instance with an associated picture url, answer string and length integer
+- `Game`: will contain the current game session including players and points
 
 ## Implementation Timeline
 - Day 0: Jim will set up developer's license and Testflight for Xcode build group testing. All will research and become familiar with Swift. Jeff will begin scraping for game images.   
