@@ -2,6 +2,8 @@
 
 iPict is a mobile multiplayer game built for iMessage using Swift. The game will render a card in iMessage consisting of four images that can be described by one word. Each player in the conversation will have a set number of guesses and will submit their guesses within iMessage.
 
+Each game consists of 10 pictures for each person in the conversation. Each player gets a total of three guesses for each image.
+
 ## MVP
 
 The game will, by Sepember 26th, at a minimum, satisfy the following criteria:
@@ -19,14 +21,14 @@ iMessage App Icon
 <img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/Icon-App@3x.png?raw=true" height=100px>
 <br><br>
 
-App View
+Compact View
 
-<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/app-start-view.png?raw=true" height=300px>
+<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/app-start-view.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-compact-view-guess.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-compact-view-guess-wrong.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-compact-view-guess-correct.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-compact-view-guess-complete.png?raw=true" height=300px>
 <br><br>
 
-App Extended View
+Extended View
 
-<img src="https://github.com/willashley23/Flex-Project-2016/blob/master/docs/images/app-extended-view.png?raw=true" height=300px>
+<img src="https://github.com/willashley23/iPict/blob/master/docs/images/extended-view-guess-1.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/extended-view-guess-incorrect.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-extended-view-guess-correct.png?raw=true" height=300px><img src="https://github.com/willashley23/iPict/blob/master/docs/images/app-extended-view-guess-answered.png?raw=true" height=300px>
 <br><br>
 
 Composed Message object
@@ -48,7 +50,7 @@ iPict will include two models:
 - `Game`: will contain the current game session including players and points
 
 ## Implementation Timeline
-- Day 0: Jim will set up developer's license and Testflight for Xcode build group testing. All will research and become familiar with Swift. Jeff will begin scraping for game images.   
+- Day 0: Jim will set up developer's license and Testflight for Xcode build group testing. All will research and become familiar with Swift. Jeff will begin scraping for game images.
 - Day 1: Determine database structure. Seeded and able to query database. Create initial Xcode project. Render UI images to project's views.
 - Day 2: Ability to begin the game with a player in the conversation on button press. Picture is sent as an MSMessage object into iMessage. Ability to pass the MSMessage object between players along with state in the query string.
 - Day 3: Implement game logic to track number of guesses by each player in the conversation on each picture. Tracks each player's score for the current game. Game win logic.
