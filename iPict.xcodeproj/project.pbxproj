@@ -213,7 +213,7 @@
 				TargetAttributes = {
 					1F82AFED1D8DFC4E00CE8DD1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 856M67PZK4;
+						DevelopmentTeam = D7RX9G9DPB;
 						ProvisioningStyle = Automatic;
 					};
 					1F82AFF71D8DFC4E00CE8DD1 = {
@@ -501,9 +501,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 856M67PZK4;
+				DEVELOPMENT_TEAM = D7RX9G9DPB;
 				INFOPLIST_FILE = iPict/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeff-Lin.iPict";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ipict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,9 +516,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 856M67PZK4;
+				DEVELOPMENT_TEAM = D7RX9G9DPB;
 				INFOPLIST_FILE = iPict/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeff-Lin.iPict";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ipict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
