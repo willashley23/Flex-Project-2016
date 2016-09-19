@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B93913E02F7DD357F9DAEBDDD3A55D7"
+               BlueprintIdentifier = "4FD55EBE71DE8C1FAD0080F5F62F8A1C"
                BuildableName = "Pods_iPict.framework"
                BlueprintName = "Pods-iPict"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B93913E02F7DD357F9DAEBDDD3A55D7"
+            BlueprintIdentifier = "4FD55EBE71DE8C1FAD0080F5F62F8A1C"
             BuildableName = "Pods_iPict.framework"
             BlueprintName = "Pods-iPict"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B93913E02F7DD357F9DAEBDDD3A55D7"
-            BuildableName = "Pods_iPict.framework"
-            BlueprintName = "Pods-iPict"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -15,4 +15,6 @@ target 'MessagesExtension' do
 
   # Pods for MessagesExtension
   pod 'Alamofire', '~> 4.0'
+  pod 'Firebase'
+  pod 'Firebase/Storage'
 end
